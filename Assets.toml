@@ -1,0 +1,54 @@
+# asset pack configurations
+[asset_pack]
+    # asset pack name
+    name =              "zm-cheese-cube"
+    # contributors
+    author =            "Voltaism"
+    # version
+    version =           "0.1.0"
+    # image URL
+    image =             "https://i.imgur.com/7ZDUqQk.jpg"
+    # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
+    unreal_folder =     "zm-cheese-cube"
+
+# assets files
+[assets]
+    # maps
+    [assets.maps]
+        zm-cheese-cube = "zm-cheese-cube"
+
+    # static meshes
+    [assets.static_meshes]
+        CheeseCube = "Models/CheeseCube"
+        WaterCube = "Models/WaterCube"
+        cheese_2_0_Cube = "Models/cheese_2_0_Cube"
+        cheese_2_0_zm_ccube_001 = "Models/cheese_2_0_zm_ccube_001"
+
+    # skeletal meshes
+    [assets.skeletal_meshes]
+        # SK_Better_Man = "Characters/SK_BetterMan_03"
+        # ...
+
+    # sounds
+    [assets.sounds]
+        alarm = "Sounds/alarm"
+
+    # animations
+    [assets.animations]
+        # A_Character_Jump = "Animations/A_Character_Jump"
+        # ...
+
+    # particles
+    [assets.particles]
+        # P_Big_Explosion = "Particles/P_Big_Explosion"
+        # ...
+
+    # materials
+    [assets.materials]
+        # M_Red_Textured = "Materials/M_Red_Textured"
+        # ...
+
+    # other assets (for not yet categorized ones)
+    [assets.others]
+        # A_Audio_Rifle_Fire = "Audios/A_Audio_Rifle_Fire_03"
+        # ...
