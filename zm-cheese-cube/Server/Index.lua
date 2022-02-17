@@ -667,3 +667,7 @@ Events.Subscribe("VZ_DoorOpened", function(char, door_id)
     end
     Package.Call("vzombies", "SetENV_Value", "PLAYER_SPAWNS", NEW_PLAYER_SPAWNS)
 end)
+
+Events.Subscribe("VZ_GameEnded", function(restart_game)
+    Package.Call("vzombies", "SetENV_Value", "PLAYER_SPAWNS", PLAYER_SPAWNS)
+end)
